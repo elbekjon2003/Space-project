@@ -49,3 +49,16 @@ nav{
         }
     }
 }
+
+.active{
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        width: 120px;
+        height: 2px;
+        background-color: #FFF;
+        bottom: -38px;
+        left: 0px;
+    }
+}
