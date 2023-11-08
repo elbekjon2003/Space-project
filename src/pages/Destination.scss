@@ -1,0 +1,91 @@
+.dest-wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/destination/background-destination-desktop.jpg');
+    padding-top: 40px;
+}
+
+.destination{
+    margin-left: 164px;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.left-part-des{
+    h2{
+        color: #FFF;
+        font-family: 'Barlow', sans-serif;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 4.725px;
+        text-transform: uppercase;
+        margin-top: 30px;
+        span{
+            font-weight: 700;
+            opacity: 0.25;
+        }
+    }
+    img{
+        width: 445px;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+}
+
+.right-part-des{
+    h1{
+        color: #FFF;
+        font-family: "Bellefair", sans-serif;
+        font-size: 100px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &>p{
+        width: 444px;
+        color: #D0D6F9;
+        font-family: "Barlow", sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 177.778% */
+        margin-top: 14px;
+    }
+    .line{
+        width: 444px;
+        height: 1px;
+        background: #383B4B;
+        margin-top: 40px;
+    }
+}
+
+
+.moon-data{
+    display: flex;
+    justify-content: flex-start;
+    gap: 80px;
+    & p{
+        color: #D0D6F9;
+        font-family: "Barlow Condensed", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2.362px;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+    span{
+        color: #FFF;
+        font-family: "Bellefair", sans-serif;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,51 @@
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // margin-top: 40px;
+}
+
+.logo-section{
+    padding-left: 55px;
+    img{
+        width: 48px;
+        height: 48px;
+    }
+}
+
+.nav-links{
+    width: 830px;
+    height: 96px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.774227142333984px);
+    display: grid;
+    place-items: center;
+    position: relative;
+    &::before{
+        content: '';
+        position: absolute;
+        width: 473px;
+        height: 1px;
+        opacity: 0.2515;
+        background: #FFF;
+        left: -440px;
+    }
+    ul{
+        display: flex;
+        gap: 50px;
+        li{
+            font-weight: 400;
+            a{
+                font-size: 16px;
+                letter-spacing: 2.7px;
+            }
+            span{
+                font-weight: 700;
+            }
+        }
+    }
+}
